@@ -6,7 +6,8 @@ import java.awt.geom.RoundRectangle2D;
 
 public class RoundedRectangle extends DrawShape {
 
-    public RoundedRectangle() {}
+    public RoundedRectangle() {
+    }
 
     public RoundedRectangle(Point startPoint, Point endPoint) {
         super(startPoint, endPoint);
